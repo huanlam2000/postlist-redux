@@ -60,7 +60,7 @@ article {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	row-gap: 5xpx;
+	row-gap: 4px;
 	color: white;
 }
 
@@ -68,11 +68,16 @@ article {
 	font-weight: bolder;
 }
 
+form {
+	width: 500px;
+}
+
 input {
-	padding-top: 0;
-	margin-top: 0;
 	margin-bottom: 20px;
-	font-size: 30px;
+	font-size: 16px;
+	padding: 8px 0px 8px 8px;
+	width: 100%;
+
 }
 
 button {
@@ -85,6 +90,25 @@ span {
 	color: #f855f8;
 }
 
+.author {
+	display: block;
+	width: 100%;
+	padding: 8px 0;
+	margin-bottom: 20px;
+}
+
 .time {
 	color: gray;
+}
+
+.reactionButton {
+	background-color: #fff;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	margin: 5px 8px 0 0;
+}
+
+.reactionWrapper {
+	margin-top: 4px;
 }
